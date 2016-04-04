@@ -10,4 +10,6 @@
 
 @interface OCUtils : NSObject
 
++ (NSKeyValueObservingOptions)keyValueObservingOptions;
+
 @end

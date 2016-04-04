@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		833CEB221CB22A940077BB2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB211CB22A940077BB2B /* AppDelegate.swift */; };
-		833CEB241CB22A940077BB2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB231CB22A940077BB2B /* ViewController.swift */; };
 		833CEB271CB22A940077BB2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833CEB251CB22A940077BB2B /* Main.storyboard */; };
 		833CEB291CB22A940077BB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833CEB281CB22A940077BB2B /* Assets.xcassets */; };
 		833CEB2C1CB22A940077BB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833CEB2A1CB22A940077BB2B /* LaunchScreen.storyboard */; };
 		833CEB371CB22A940077BB2B /* iOSBackgroundDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB361CB22A940077BB2B /* iOSBackgroundDemoTests.swift */; };
 		833CEB421CB22A940077BB2B /* iOSBackgroundDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB411CB22A940077BB2B /* iOSBackgroundDemoUITests.swift */; };
+		833CEB501CB242560077BB2B /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB4F1CB242560077BB2B /* AudioViewController.swift */; };
+		833CEB521CB242780077BB2B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB511CB242780077BB2B /* LocationViewController.swift */; };
+		833CEB541CB242CE0077BB2B /* FetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB531CB242CE0077BB2B /* FetchViewController.swift */; };
+		833CEB561CB242F00077BB2B /* WhateverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB551CB242F00077BB2B /* WhateverViewController.swift */; };
+		83C0405C1CB24FF000ECE271 /* 家.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83C0405B1CB24FF000ECE271 /* 家.mp3 */; };
+		83C0405F1CB252B800ECE271 /* 我也可以是流浪诗人.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83C0405E1CB252B800ECE271 /* 我也可以是流浪诗人.mp3 */; };
+		83C040631CB256D300ECE271 /* OCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C040621CB256D300ECE271 /* OCUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		833CEB1E1CB22A930077BB2B /* iOSBackgroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBackgroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833CEB211CB22A940077BB2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		833CEB231CB22A940077BB2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		833CEB261CB22A940077BB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		833CEB281CB22A940077BB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833CEB2B1CB22A940077BB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		833CEB3D1CB22A940077BB2B /* iOSBackgroundDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBackgroundDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833CEB411CB22A940077BB2B /* iOSBackgroundDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBackgroundDemoUITests.swift; sourceTree = "<group>"; };
 		833CEB431CB22A940077BB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833CEB4F1CB242560077BB2B /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		833CEB511CB242780077BB2B /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		833CEB531CB242CE0077BB2B /* FetchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchViewController.swift; sourceTree = "<group>"; };
+		833CEB551CB242F00077BB2B /* WhateverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhateverViewController.swift; sourceTree = "<group>"; };
+		83C0405B1CB24FF000ECE271 /* 家.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "家.mp3"; sourceTree = "<group>"; };
+		83C0405E1CB252B800ECE271 /* 我也可以是流浪诗人.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我也可以是流浪诗人.mp3"; sourceTree = "<group>"; };
+		83C040601CB256D300ECE271 /* iOSBackgroundDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSBackgroundDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		83C040611CB256D300ECE271 /* OCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUtils.h; sourceTree = "<group>"; };
+		83C040621CB256D300ECE271 /* OCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,20 @@
 		833CEB201CB22A940077BB2B /* iOSBackgroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				83C040611CB256D300ECE271 /* OCUtils.h */,
+				83C040621CB256D300ECE271 /* OCUtils.m */,
 				833CEB211CB22A940077BB2B /* AppDelegate.swift */,
-				833CEB231CB22A940077BB2B /* ViewController.swift */,
+				833CEB4F1CB242560077BB2B /* AudioViewController.swift */,
+				833CEB511CB242780077BB2B /* LocationViewController.swift */,
+				833CEB551CB242F00077BB2B /* WhateverViewController.swift */,
+				833CEB531CB242CE0077BB2B /* FetchViewController.swift */,
 				833CEB251CB22A940077BB2B /* Main.storyboard */,
 				833CEB281CB22A940077BB2B /* Assets.xcassets */,
 				833CEB2A1CB22A940077BB2B /* LaunchScreen.storyboard */,
 				833CEB2D1CB22A940077BB2B /* Info.plist */,
+				83C0405B1CB24FF000ECE271 /* 家.mp3 */,
+				83C0405E1CB252B800ECE271 /* 我也可以是流浪诗人.mp3 */,
+				83C040601CB256D300ECE271 /* iOSBackgroundDemo-Bridging-Header.h */,
 			);
 			path = iOSBackgroundDemo;
 			sourceTree = "<group>";
@@ -193,6 +215,12 @@
 				TargetAttributes = {
 					833CEB1D1CB22A930077BB2B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3943ARX7RN;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					833CEB311CB22A940077BB2B = {
 						CreatedOnToolsVersion = 7.3;
@@ -232,6 +260,8 @@
 				833CEB2C1CB22A940077BB2B /* LaunchScreen.storyboard in Resources */,
 				833CEB291CB22A940077BB2B /* Assets.xcassets in Resources */,
 				833CEB271CB22A940077BB2B /* Main.storyboard in Resources */,
+				83C0405C1CB24FF000ECE271 /* 家.mp3 in Resources */,
+				83C0405F1CB252B800ECE271 /* 我也可以是流浪诗人.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833CEB241CB22A940077BB2B /* ViewController.swift in Sources */,
+				833CEB521CB242780077BB2B /* LocationViewController.swift in Sources */,
+				833CEB541CB242CE0077BB2B /* FetchViewController.swift in Sources */,
 				833CEB221CB22A940077BB2B /* AppDelegate.swift in Sources */,
+				83C040631CB256D300ECE271 /* OCUtils.m in Sources */,
+				833CEB501CB242560077BB2B /* AudioViewController.swift in Sources */,
+				833CEB561CB242F00077BB2B /* WhateverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +433,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSBackgroundDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panli.panlimobile.iOSBackgroundDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSBackgroundDemo/iOSBackgroundDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSBackgroundDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.panli.panlimobile.iOSBackgroundDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOSBackgroundDemo/iOSBackgroundDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +523,7 @@
 				833CEB481CB22A940077BB2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833CEB491CB22A940077BB2B /* Build configuration list for PBXNativeTarget "iOSBackgroundDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +532,7 @@
 				833CEB4B1CB22A940077BB2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833CEB4C1CB22A940077BB2B /* Build configuration list for PBXNativeTarget "iOSBackgroundDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +541,7 @@
 				833CEB4E1CB22A940077BB2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

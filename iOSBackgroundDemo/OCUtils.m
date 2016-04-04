@@ -10,4 +10,9 @@
 
 @implementation OCUtils
 
++ (NSKeyValueObservingOptions)keyValueObservingOptions
+{
+    return NSKeyValueObservingOptionNew | NSKeyValueObservingOptionInitial;
+}
+
 @end
