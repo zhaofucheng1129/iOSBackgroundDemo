@@ -131,20 +131,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="定位" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3El-F5-wYn">
-                                <rect key="frame" x="283" y="289" width="34" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="znz-HN-slv">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <connections>
+                                    <outlet property="delegate" destination="TEX-5e-Py5" id="Yjh-BG-bp5"/>
+                                </connections>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="3El-F5-wYn" firstAttribute="centerY" secondItem="KG2-oM-3OD" secondAttribute="centerY" id="2Ib-xY-IT6"/>
-                            <constraint firstItem="3El-F5-wYn" firstAttribute="centerX" secondItem="KG2-oM-3OD" secondAttribute="centerX" id="HwX-aF-dDH"/>
+                            <constraint firstAttribute="trailing" secondItem="znz-HN-slv" secondAttribute="trailing" id="V0a-Rc-PDm"/>
+                            <constraint firstItem="znz-HN-slv" firstAttribute="leading" secondItem="KG2-oM-3OD" secondAttribute="leading" id="X2T-c9-wAF"/>
+                            <constraint firstItem="vxX-Bv-9lo" firstAttribute="top" secondItem="znz-HN-slv" secondAttribute="bottom" id="Z72-3g-vxX"/>
+                            <constraint firstItem="znz-HN-slv" firstAttribute="top" secondItem="y6d-aj-5Sa" secondAttribute="bottom" id="fQq-bg-rP8"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="定位" id="kcI-GH-3wc"/>
+                    <connections>
+                        <outlet property="mapView" destination="znz-HN-slv" id="kIG-VM-s4Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t4s-jd-3GM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585A61421CB390670013CA30 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585A61411CB390670013CA30 /* MapKit.framework */; };
 		833CEB221CB22A940077BB2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833CEB211CB22A940077BB2B /* AppDelegate.swift */; };
 		833CEB271CB22A940077BB2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833CEB251CB22A940077BB2B /* Main.storyboard */; };
 		833CEB291CB22A940077BB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833CEB281CB22A940077BB2B /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		585A61411CB390670013CA30 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		833CEB1E1CB22A930077BB2B /* iOSBackgroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBackgroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833CEB211CB22A940077BB2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833CEB261CB22A940077BB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585A61421CB390670013CA30 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +94,7 @@
 		833CEB151CB22A930077BB2B = {
 			isa = PBXGroup;
 			children = (
+				585A61411CB390670013CA30 /* MapKit.framework */,
 				833CEB201CB22A940077BB2B /* iOSBackgroundDemo */,
 				833CEB351CB22A940077BB2B /* iOSBackgroundDemoTests */,
 				833CEB401CB22A940077BB2B /* iOSBackgroundDemoUITests */,
